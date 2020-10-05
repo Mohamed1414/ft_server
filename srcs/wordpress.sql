@@ -106,8 +106,8 @@ CREATE TABLE `wp_options` (
 --
 
 INSERT INTO `wp_options` (`option_id`, `option_name`, `option_value`, `autoload`) VALUES
-(1, 'siteurl', 'http://0.0.0.0/wordpress', 'yes'),
-(2, 'home', 'http://0.0.0.0/wordpress', 'yes'),
+(1, 'siteurl', 'https://localhost/wordpress', 'yes'),
+(2, 'home', 'https://localhost/wordpress', 'yes'),
 (3, 'blogname', 'ftserver', 'yes'),
 (4, 'blogdescription', 'Otro sitio realizado con WordPress', 'yes'),
 (5, 'users_can_register', '0', 'yes'),
